@@ -11,3 +11,5 @@ jobs:
 
     steps:
       - uses: actions/checkout@v3
+      - name: JavaScript joke actions
+        uses: ./.github/actions/joke-action
